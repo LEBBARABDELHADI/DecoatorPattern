@@ -1,4 +1,4 @@
-# DecoatorPattern
+# DecoratorPattern
 
 
 Dans cet exemple, le BorderDecorator ajoute des bordures à l'objet de base ConcreteShape en utilisant l'approche de composition. Ainsi, nous pouvons ajouter dynamiquement des fonctionnalités supplémentaires à nos objets sans modifier leur structure de base.
