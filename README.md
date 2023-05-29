@@ -3,6 +3,8 @@
 
 Dans cet exemple, le BorderDecorator ajoute des bordures à l'objet de base ConcreteShape en utilisant l'approche de composition. Ainsi, nous pouvons ajouter dynamiquement des fonctionnalités supplémentaires à nos objets sans modifier leur structure de base.
 
+Le pattern Decorator permet d'ajouter des fonctionnalités supplémentaires de manière flexible et modulaire. Il évite la nécessité de créer une classe distincte pour chaque combinaison possible d'options ou d'ajouts, et permet de les ajouter ou de les retirer à tout moment.
+
 Component (Composant) : C'est l'interface commune ou la classe abstraite qui définit les opérations de base que les décorateurs et les objets concrets doivent implémenter. C'est le point d'entrée pour toutes les opérations.
 
 ConcreteComponent (Composant concret) : C'est la classe concrète qui implémente l'interface Component. Elle représente l'objet de base auquel nous souhaitons ajouter des fonctionnalités supplémentaires.
